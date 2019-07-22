@@ -1,11 +1,11 @@
 structure (Results) {
   description (__DESCRIPTION__)
-  property(rest){
-    type(Rest)
+   property(isEmpty){
+    type(IsEmpty)
     min(Optional) max(One)
   }
-   property(menuDetail){
-    type(MenuDetail)
+  property(list){
+    type(List)
     min(Optional) max(One)
   }
 }
