@@ -1,5 +1,5 @@
 train (t-dkcod8qq4pnwgka5va4e32hs6) {
-  utterance ([g:httpCall] 테스트)
-  plan (Y2BiEMkoKSlITszJ0SstytELSi0uzSkpZhBFEQVxnIEcBkYgZIBiIAkA)
-  last-modified (1563807161347)
+  utterance ([g:List] 테스트)
+  plan (Y2BkEMwoKSlITszJ0SstytHzySwuYQABRhABAA==)
+  last-modified (1563900361959)
 }

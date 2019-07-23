@@ -1,0 +1,21 @@
+
+layout-macro-def (Listinfo) {
+  params {
+    param (info) {
+      type (List)
+      min (Optional) max (Many)
+    }
+  }
+  content {
+     cell-area {
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value(list.rest)}")
+              secondary ("[#{value(list.time)}]")
+            }
+        }
+       
+     }
+  }
+}

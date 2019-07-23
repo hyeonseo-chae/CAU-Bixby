@@ -6,6 +6,6 @@ structure (Results) {
   }
   property(list){
     type(List)
-    min(Optional) max(One)
+    min(Optional) max(Many)
   }
 }
