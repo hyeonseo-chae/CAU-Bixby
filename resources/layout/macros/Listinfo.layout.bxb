@@ -1,18 +1,19 @@
-
 layout-macro-def (Listinfo) {
+  
   params {
     param (info) {
-      type (List)
+      type (Results_post)
       min (Optional) max (Many)
     }
   }
+  
   content {
      cell-area {
       slot2 {
           content {
               order (PrimarySecondary)
-              primary ("#{value(list.rest)}")
-              secondary ("[#{value(list.time)}]")
+              primary ("#{value(this.list.rest)}")
+              secondary ("[#{value(this.list.time)}]")
             }
         }
        

@@ -1,0 +1,14 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (posthttpCall) {
+      accepted-inputs ()
+      local-endpoint (posthttpCall.js)
+    }
+action-endpoint (httpCall) {
+      accepted-inputs ()
+      local-endpoint (httpCall.js)
+    }
+  
+    }
+  }
+

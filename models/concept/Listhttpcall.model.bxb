@@ -1,0 +1,6 @@
+structure  (Listhttpcall) {
+   property(SUBJECT){
+    type(SUBJECT)
+    min(Optional) max(One)
+  }
+}
