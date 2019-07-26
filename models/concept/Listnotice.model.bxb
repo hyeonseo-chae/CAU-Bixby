@@ -1,0 +1,152 @@
+structure  (Listnotice) {
+   property(BOARD_TYPE){
+    type(BOARD_TYPE)
+    min(Optional) max(Many)
+  }
+  property(SUBJECT){
+    type(SUBJECT)
+    min(Optional) max(Many)
+  }
+  property(SUB_CONTENTS){
+    type(SUB_CONTENTS)
+    min(Optional) max(Many)
+  }
+  property(LINK_URL_YN){
+    type(LINK_URL_YN)
+    min(Optional) max(Many)
+  }
+  property(WRITER_NM){
+    type(WRITER_NM)
+    min(Optional) max(Many)
+  }
+  property(OPEN_NM){
+    type(OPEN_NM)
+    min(Optional) max(Many)
+  }
+  property(STATUS_NM){
+    type(STATUS_NM)
+    min(Optional) max(Many)
+  }
+  property(WRITE_DATE){
+    type(WRITE_DATE)
+    min(Optional) max(Many)
+  }
+  property(WRITE_DT){
+    type(WRITE_DT)
+    min(Optional) max(Many)
+  }
+   property(NEW_YN){
+    type(NEW_YN)
+    min(Optional) max(Many)
+  } property(USE_COMMENT_YN){
+    type(USE_COMMENT_YN)
+    min(Optional) max(Many)
+  }
+  property(USE_REPLY_YN){
+    type(USE_REPLY_YN)
+    min(Optional) max(Many)
+  }
+  property(FROM_DATE){
+    type(FROM_DATE)
+    min(Optional) max(Many)
+  }
+  property(TO_DATE){
+    type(TO_DATE)
+    min(Optional) max(Many)
+  }
+  property(GONGO_GUBUN){
+    type(GONGO_GUBUN)
+    min(Optional) max(Many)
+  }
+  property(CATEGORY_NM){
+    type(CATEGORY_NM)
+    min(Optional) max(Many)
+  }
+  property(RNUM){
+    type(RNUM)
+    min(Optional) max(Many)
+  }
+  property(RNUM_DESC){
+    type(RNUM_DESC)
+    min(Optional) max(Many)
+  }
+  property(SITE_NO){
+    type(SITE_NO)
+    min(Optional) max(Many)
+  }
+  property(BOARD_SEQ){
+    type(BOARD_SEQ)
+    min(Optional) max(Many)
+  }
+  property(BBS_SEQ){
+    type(BBS_SEQ)
+    min(Optional) max(Many)
+  }
+  property(P_BBS_SEQ){
+    type(P_BBS_SEQ)
+    min(Optional) max(Many)
+  }
+  property(SUBJECT_COLOR){
+    type(SUBJECT_COLOR)
+    min(Optional) max(Many)
+  }
+  property(LINK_URL){
+    type(LINK_URL)
+    min(Optional) max(Many)
+  }
+  property(DEPT_CD){
+    type(DEPT_CD)
+    min(Optional) max(Many)
+  }
+   property(DEPT_NM){
+    type(DEPT_NM)
+    min(Optional) max(Many)
+  } property(PASSWD){
+    type(PASSWD)
+    min(Optional) max(Many)
+  }
+  property(EMAIL){
+    type(EMAIL)
+    min(Optional) max(Many)
+  }
+  property(CATE_SEQ){
+    type(CATE_SEQ)
+    min(Optional) max(Many)
+  }
+  property(START_DT){
+    type(START_DT)
+    min(Optional) max(Many)
+  }
+  property(END_DT){
+    type(END_DT)
+    min(Optional) max(Many)
+  }
+  property(STATUS){
+    type(STATUS)
+    min(Optional) max(Many)
+  }
+  property(ORD_NO){
+    type(ORD_NO)
+    min(Optional) max(Many)
+  }
+  property(HITS){
+    type(HITS)
+    min(Optional) max(Many)
+  }
+  property(RECOMMS){
+    type(RECOMMS)
+    min(Optional) max(Many)
+  }
+  property(COMMENT_CNT){
+    type(COMMENT_CNT)
+    min(Optional) max(Many)
+  }
+   property(REPLY_CNT){
+    type(REPLY_CNT)
+    min(Optional) max(Many)
+  }
+  property(FILE_CNT){
+    type(FILE_CNT)
+    min(Optional) max(Many)
+  }
+}

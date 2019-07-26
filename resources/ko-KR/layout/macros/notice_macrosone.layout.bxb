@@ -1,0 +1,31 @@
+layout-macro-def (notice_macrosone) {
+  
+  params {
+    param (info) {
+      type (Results_notice)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("최근 공지사항")
+      }
+      
+      content{
+        
+        for-each(info.data.list){ 
+          as (subinfo){           
+            paragraph("#{value(subinfo.SUBJECT)}"){
+              style(Title_L)
+            }        
+   
+            }           
+          }
+        }
+      
+      }
+    
+    }
+
+}

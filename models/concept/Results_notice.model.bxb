@@ -1,0 +1,6 @@
+structure  (Results_notice) {
+  property(data){
+    type(Datanotice)
+    min(Optional) max(Many)
+  }
+}

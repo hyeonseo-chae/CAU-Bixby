@@ -1,7 +1,7 @@
 train (t-k8xq7p5i9v6t3g1jj8qnfmm8w) {
-  utterance ([g:Results_httpCall] 테스트1)
-  plan (Y2BkkM0oKSlITszJ0SstytELSi0uzSkpjgcJOgMFGUCAEUQAAA==)
-  last-modified (1564036399787)
+  utterance ([g:notice] 테스트1)
+  plan (Y2BikM4oKSlITszJ0SstytELSi0uzSkpjs/LL8lMTmUQRpGECjICIQMUA0kA)
+  last-modified (1564172194896)
 }
 train (t-kjyzc11mw1990lmu9miqch1tf) {
   utterance ([g:todayD] 오늘 저녁 학식 알려줘)

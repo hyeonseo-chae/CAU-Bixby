@@ -1,0 +1,15 @@
+layout-macro-def (notice_macrosmany) {
+  params {
+    param (info) {
+      type (Results_notice)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    paragraph("#{value(info.data.list.SUBJECT)}"){
+              style(Title_L)
+            }         
+
+  }
+  
+}

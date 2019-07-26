@@ -1,4 +1,4 @@
-structure (List) {
+structure (Listmeal) {
   description (__DESCRIPTION__)
   property(rest){
     type(Rest)

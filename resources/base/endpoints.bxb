@@ -24,9 +24,9 @@ endpoints {
       accepted-inputs ()
       local-endpoint (tomorrowD.js)
     }
-action-endpoint (httpCall) {
+action-endpoint (notice) {
       accepted-inputs ()
-      local-endpoint (httpCall.js)
+      local-endpoint (notice.js)
     }
   
     }

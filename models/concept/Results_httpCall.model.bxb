@@ -1,6 +1,0 @@
-structure  (Results_httpCall) {
-  property(data){
-    type(Datahttpcall)
-    min(Optional) max(One)
-  }
-}

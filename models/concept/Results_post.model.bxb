@@ -5,7 +5,7 @@ structure (Results_post) {
     min(Optional) max(One)
   }
   property(list){
-    type(List)
+    type(Listmeal)
     min(Optional) max(Many)
   }
 }

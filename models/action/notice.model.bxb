@@ -1,5 +1,5 @@
-action(httpCall) {
+action(notice) {
  description (__DESCRIPTION__)
  type(Constructor)
- output(Results_httpCall)
+ output(Results_notice)
 }

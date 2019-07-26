@@ -1,7 +1,0 @@
-structure (Datahttpcall) {
- property(list){
-    type(Listhttpcall)
-    min(Optional) max(Many)
-  }
-   
-}

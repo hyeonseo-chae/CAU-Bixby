@@ -1,0 +1,23 @@
+structure (Datanotice) {
+  
+ property(list){
+    type(Listnotice)
+    min(Optional) max(Many)
+  }
+   property(totalRecordCount){
+    type(totalRecordCount)
+    min(Optional) max(Many)
+  }
+  property(recordCountPerPage){
+    type(recordCountPerPage)
+    min(Optional) max(Many)
+  }
+  property(currentPageNo){
+    type(currentPageNo)
+    min(Optional) max(Many)
+  }
+  property(jsFunction){
+    type(jsFunction)
+    min(Optional) max(Many)
+  }
+}

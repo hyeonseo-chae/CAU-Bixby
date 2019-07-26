@@ -1,18 +1,18 @@
 
 result-view {
 
-  match: Results_post (this)
+  match: Results_notice (this)
 
   message {
 
-        template ("아래 학식 정보를 확인해 보세요")
+        template ("카우 캡슐이, 최근 공지사항 20개를 가져와 보았어요~!")
   }
 
   render {
    
       if(size(this) == 1){
       layout{
-        layout-macro (Listinfoone){
+        layout-macro (notice_macrosone){
           param(info){
             expression (this)
           }
@@ -24,7 +24,7 @@ result-view {
     }else{
       list-of (this){
         where-each (item){
-          layout-macro (Listinfomany){
+          layout-macro (notice_macrosmany){
             param(info){
               expression (item)
             }
