@@ -1,8 +1,28 @@
 endpoints {
   action-endpoints {
-    action-endpoint (posthttpCall) {
+    action-endpoint (todayB) {
       accepted-inputs ()
-      local-endpoint (posthttpCall.js)
+      local-endpoint (todayB.js)
+    }
+    action-endpoint (todayD) {
+      accepted-inputs ()
+      local-endpoint (todayD.js)
+    }
+    action-endpoint (todayL) {
+      accepted-inputs ()
+      local-endpoint (todayL.js)
+    }
+    action-endpoint (tomorrowL) {
+      accepted-inputs ()
+      local-endpoint (tomorrowL.js)
+    }
+    action-endpoint (tomorrowB) {
+      accepted-inputs ()
+      local-endpoint (tomorrowB.js)
+    }
+    action-endpoint (tomorrowD) {
+      accepted-inputs ()
+      local-endpoint (tomorrowD.js)
     }
 action-endpoint (httpCall) {
       accepted-inputs ()

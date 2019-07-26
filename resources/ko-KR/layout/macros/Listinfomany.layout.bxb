@@ -1,0 +1,20 @@
+layout-macro-def (Listinfomany) {
+  params {
+    param (info) {
+      type (Results_post)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    
+    paragraph("#{value(info.list.rest)}"){
+              style(Title_M)
+            }
+    paragraph("이용 시간 : #{value(info.list.time)}"){
+              style(Detail_M_Soft)
+            }
+    paragraph("[#{value(info.list.menuDetail)}]"){
+              style(Detail_M)
+            }
+  }
+}

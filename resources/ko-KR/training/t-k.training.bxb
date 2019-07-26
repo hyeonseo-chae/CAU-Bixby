@@ -3,3 +3,8 @@ train (t-k8xq7p5i9v6t3g1jj8qnfmm8w) {
   plan (Y2BkkM0oKSlITszJ0SstytELSi0uzSkpjgcJOgMFGUCAEUQAAA==)
   last-modified (1564036399787)
 }
+train (t-kjyzc11mw1990lmu9miqch1tf) {
+  utterance ([g:todayD] 오늘 저녁 학식 알려줘)
+  plan (Y2BikMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEaRKslPSax0YWAEQgYoBpIA)
+  last-modified (1564134339537)
+}
