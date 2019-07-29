@@ -1,0 +1,45 @@
+layout-macro-def (potalnoticeone) {
+  
+  params {
+    param (info) {
+      type (Results_potalnotice)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    
+    section{
+      title{
+        template ("포탈 공지사항")
+      }
+      
+      content{
+        
+        
+        for-each(info.title){ 
+          as (subinfo){
+            
+            cell-area{
+              
+              slot2{
+                
+                content{
+                  primary("#{value(subinfo)}")
+                  
+                } 
+                }
+              
+              }
+            }
+                   
+   
+            }           
+          }
+        }
+      
+      }
+    
+    }
+
+

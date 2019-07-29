@@ -1,0 +1,39 @@
+structure (Results_potalnotice) {
+  description (__DESCRIPTION__)
+   property(bbsId){
+    type(bbsId)
+    min(Optional) max(One)
+  }
+  property(title){
+    type(title)
+    min(Optional) max(Many)
+  }
+  property(regId){
+    type(regId)
+    min(Optional) max(Many)
+  }
+  property(regNm){
+    type(regNm)
+    min(Optional) max(Many)
+  }
+  property(regDt){
+    type(regDt)
+    min(Optional) max(Many)
+  }
+  property(postId){
+    type(postId)
+    min(Optional) max(One)
+  }
+  property(readCnt){
+    type(readCnt)
+    min(Optional) max(One)
+  }
+  property(cate){
+    type(cate)
+    min(Optional) max(One)
+  }
+  property(cateNm){
+    type(cateNm)
+    min(Optional) max(One)
+  }
+}

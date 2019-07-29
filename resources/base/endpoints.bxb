@@ -5,6 +5,10 @@ endpoints {
       accepted-inputs ()
       local-endpoint (todayB.js)
     }
+     action-endpoint (potalnotice) {
+      accepted-inputs ()
+      local-endpoint (potalnotice.js)
+    }
     action-endpoint (todayD) {
       accepted-inputs ()
       local-endpoint (todayD.js)

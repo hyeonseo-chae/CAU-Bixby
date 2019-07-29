@@ -1,0 +1,40 @@
+
+result-view {
+
+  match: Results_potalnotice (this)
+
+  message {
+
+        template ("중앙대학교 포탈 공지사항을 가져와 보았어요.   자세히 보시려면 아래 버튼을 클릭해 주세요.")
+  }
+  
+ 
+
+  render {
+   
+      if(size(this) == 1){
+      layout{
+        layout-macro (potalnoticeone){
+          param(info){
+            expression (this)
+          }
+        }
+        
+        
+      }
+   
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (potalnoticemany){
+            param(info){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    
+  }
+    
+  }

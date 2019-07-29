@@ -1,0 +1,27 @@
+layout-macro-def (potalnoticemany) {
+  params {
+    param (info) {
+      type (Results_potalnotice)
+      min (Required) max (Many)
+    }
+  }
+  
+  content {
+    
+    
+    
+    cell-card{
+              slot2{
+                content{
+          order (PrimarySecondary)
+          primary("#{value(info.title)}\n")
+          
+            } 
+                }
+     
+      }
+    }         
+
+  }
+  
+
