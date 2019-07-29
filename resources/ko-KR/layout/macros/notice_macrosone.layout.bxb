@@ -3,22 +3,50 @@ layout-macro-def (notice_macrosone) {
   params {
     param (info) {
       type (Results_notice)
-      min (Required) max (Many)
+      min (Required) max (One)
     }
   }
+  
   content {
+    
     section{
       title{
         template ("최근 공지사항")
       }
       
       content{
+        cell-card{
+          slot2{
+            content{
+              primary("공지사항 목록 자세히 보기")
+            }
+          }
+          on-click{
+        intent {
+  
+              goal: SUBJECT
+  
+              value: $expr(info)
+
+            }
+        }}
         
         for-each(info.data.list){ 
-          as (subinfo){           
-            paragraph("#{value(subinfo.SUBJECT)}"){
-              style(Title_L)
-            }        
+          as (subinfo){
+            
+            cell-area{
+              
+              slot2{
+                
+                content{
+                  primary("#{value(subinfo.SUBJECT)}")
+                  secondary("ㅤ")
+                } 
+                }
+              
+              }
+            }
+                   
    
             }           
           }
@@ -28,4 +56,4 @@ layout-macro-def (notice_macrosone) {
     
     }
 
-}
+

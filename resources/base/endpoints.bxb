@@ -1,5 +1,6 @@
 endpoints {
   action-endpoints {
+     
     action-endpoint (todayB) {
       accepted-inputs ()
       local-endpoint (todayB.js)

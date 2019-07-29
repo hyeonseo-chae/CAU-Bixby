@@ -1,9 +1,5 @@
 structure (Datanotice) {
-  
- property(list){
-    type(Listnotice)
-    min(Optional) max(Many)
-  }
+    
    property(totalRecordCount){
     type(totalRecordCount)
     min(Optional) max(Many)
@@ -18,6 +14,10 @@ structure (Datanotice) {
   }
   property(jsFunction){
     type(jsFunction)
+    min(Optional) max(Many)
+  }
+  property(list){
+    type(Listnotice)
     min(Optional) max(Many)
   }
 }

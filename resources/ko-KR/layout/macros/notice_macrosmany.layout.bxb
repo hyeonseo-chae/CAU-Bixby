@@ -6,10 +6,33 @@ layout-macro-def (notice_macrosmany) {
     }
   }
   content {
-    paragraph("#{value(info.data.list.SUBJECT)}"){
-              style(Title_L)
-            }         
+    cell-card{
+          slot2{
+            content{
+              primary("공지사항 목록 자세히 보기")
+            }
+          }
+          on-click{
+        intent {
+  
+              goal: SUBJECT
+  
+              value: $expr(info)
+
+            }
+        }}
+    cell-area{
+              slot2{
+                content{
+          order (PrimarySecondary)
+          primary("#{value(info.data.list.SUBJECT)}\nㅤ")
+          secondary("ㅤ")
+            } 
+                }
+     
+      }
+              }         
 
   }
   
-}
+
