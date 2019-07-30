@@ -2,35 +2,35 @@ endpoints {
   action-endpoints {
      
     action-endpoint (todayB) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (todayB.js)
     }
      action-endpoint (potalnotice) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (potalnotice.js)
     }
     action-endpoint (todayD) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (todayD.js)
     }
     action-endpoint (todayL) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (todayL.js)
     }
     action-endpoint (tomorrowL) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (tomorrowL.js)
     }
     action-endpoint (tomorrowB) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (tomorrowB.js)
     }
     action-endpoint (tomorrowD) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (tomorrowD.js)
     }
 action-endpoint (notice) {
-      accepted-inputs ()
+      accepted-inputs (where, meal)
       local-endpoint (notice.js)
     }
   

@@ -1,0 +1,10 @@
+train (t-3kqub0vmqgjboqj5ljn2qd7p0) {
+  utterance ("[g:todayL] 점심 (알려줘)[v:Where:Whereby]")
+  plan (Y2BmkMwoKSlITszJ0UtOLNULSi0uzSkpji/ILy5hEEaRKslPSaz0YRBCEQzPSC1KZWBiYARiBiDJyAACUD4A)
+  last-modified (1564491774483)
+}
+train (t-3zzgx4bjw93kducqv3q51w06c) {
+  utterance ("[g:todayB] 오늘 조식 (알려줘)[v:Where:Whereby]")
+  plan (Y2BmkMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEaRKslPSax0YhBCEQzPSC1KZWBiYARiBiDJyAACUD4A)
+  last-modified (1564485938553)
+}

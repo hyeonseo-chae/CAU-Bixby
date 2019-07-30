@@ -1,0 +1,10 @@
+train (t-0hxew32qevdy8flckebuwkbdo) {
+  utterance ("[g:potalnotice] 포탈 공지사항 (알려줘)[v:Where:Whereby]")
+  plan (Y2BmUMgoKSlITszJ0SstytELSi0uzSkpji/IL0nMycsvyUxOZZBAUYEsI4QiE56RWpTKwMTACMQMQJKRAQSgfAA=)
+  last-modified (1564485708473)
+}
+train (t-0rty3io3hqpijfv6kzz8p70wg) {
+  utterance ("[g:tomorrowL] 내일 중식 (알려줘)[v:Where:Whereby]")
+  plan (Y2BmkMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEORKsnPzS8qyi/3YRBCEQ/PSC1KZWBiYARiBiDJyAACUD4A)
+  last-modified (1564485780578)
+}

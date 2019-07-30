@@ -1,0 +1,5 @@
+train (t-gmcbkat3y2hz8zcgidyh8l50r) {
+  utterance ("[g:tomorrowB] 내일 조식 (알려줘)[v:Where:Whereby]")
+  plan (Y2BmkMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEORKsnPzS8qyi93YhBCEQ/PSC1KZWBiYARiBiDJyAACUD4A)
+  last-modified (1564485747293)
+}

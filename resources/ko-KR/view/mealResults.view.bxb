@@ -5,7 +5,7 @@ result-view {
 
   message {
 
-        template ("카우 캡슐이, 학식 정보를 가져와 보았어요~!")
+        template ("학식 정보를 가져와 보았어요. 아래에서 정보를 확인해 보세요.")
   }
 
   render {

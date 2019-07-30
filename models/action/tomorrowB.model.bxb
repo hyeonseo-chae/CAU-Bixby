@@ -1,4 +1,14 @@
 action(tomorrowB) {
+  collect{
+    input (where) {
+      type (Where)
+      min (Optional) max (One)
+    }
+    input (meal) {
+      type (meal)
+      min (Optional) max (One)
+    }
+  }
  description (__DESCRIPTION__)
  type(Constructor)
  output(Results_post)

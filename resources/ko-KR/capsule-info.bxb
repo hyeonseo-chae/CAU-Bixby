@@ -1,0 +1,24 @@
+description {
+  display-name (카우캡 (CAU Capsule))
+  developer-name (CAU_SOFT)
+  icon-asset (/img/caulogo.png)
+  description ("중앙대학교 소프트웨어학부 재학생 채현서가 개발한 카우캡 입니다.\n이 캡슐에서는 학식 정보 확인, 공지사항 확인, 포탈 공지사항 확인이 가능합니다.\n 알려줘, 뭐야, 찾아줘 등 다양한 발화가 가능합니다. \n추가적인 기능 추가나 기타 문의는 메일(eric71804122@gmail.com)로 부탁드립니다.")
+  
+  privacy-policy-url (https://docs.google.com/document/d/1UF2fmblsT-ZqfKu5DvayUHQvVQb3sM02Tx3bFJn5Sao/edit?usp=sharing)
+  
+  search-keywords{
+    keyword (중앙대학교)
+    keyword (중앙대)
+    keyword (카우)
+    keyword (카우캡)
+  }
+
+  dispatch-name (카우캡)
+  dispatch-aliases{
+    alias (카우)
+    alias (중학대학교 캡슐)
+    alias (중앙대학교 캡슐)
+    alias (중앙대캡슐)
+    alias (중앙대 캡슐)
+  }
+}

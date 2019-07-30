@@ -1,4 +1,4 @@
-module.exports.function = function potalnotice () {
+module.exports.function = function potalnotice (where) {
   
   var http = require('http')
   URL = 'https://mportal.cau.ac.kr/system/admin/board/B0004/selectPostList.ajax'

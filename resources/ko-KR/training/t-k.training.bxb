@@ -1,10 +1,5 @@
-train (t-k8xq7p5i9v6t3g1jj8qnfmm8w) {
-  utterance ([g:notice] 테스트1)
-  plan (Y2BikM4oKSlITszJ0SstytELSi0uzSkpjs/LL8lMTmUQRpGECjICIQMUA0kA)
-  last-modified (1564172194896)
-}
 train (t-kjyzc11mw1990lmu9miqch1tf) {
-  utterance ([g:todayD] 오늘 저녁 학식 알려줘)
-  plan (Y2BikMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEaRKslPSax0YWAEQgYoBpIA)
-  last-modified (1564134339537)
+  utterance ("[g:todayD] 오늘 저녁 (학식)[v:meal:mealby] (알려줘)[v:Where:Whereby]")
+  plan (Y2BhkMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEaRKslPSax0YRBCEQzPSC1KZRBEEctNTcxhYGZgZGACkgxAGgQhAC4KAA==)
+  last-modified (1564485394744)
 }

@@ -1,4 +1,4 @@
-module.exports.function = function tomorrowD () {
+module.exports.function = function tomorrowD (where,meal) {
   
   var http = require('http')
   URL = 'https://mportal.cau.ac.kr/portlet/p005/p005.ajax'

@@ -1,4 +1,4 @@
-module.exports.function = function todayB () {
+module.exports.function = function todayB (where,meal) {
   
   var http = require('http')
   URL = 'https://mportal.cau.ac.kr/portlet/p005/p005.ajax'

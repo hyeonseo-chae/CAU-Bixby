@@ -1,0 +1,6 @@
+enum (meal){
+   features{
+  transient
+  }
+  symbol (mealby)
+}

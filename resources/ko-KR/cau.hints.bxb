@@ -1,0 +1,13 @@
+hints {
+  uncategorized {
+    utterance (오늘 아침 학식 알려줘)
+    utterance (오늘 점심 학식 알려줘)
+    utterance (오늘 저녁 학식 알려줘)
+    utterance (내일 아침 학식 알려줘)
+    utterance (내일 점심 학식 알려줘)
+    utterance (내일 저녁 학식 알려줘)
+    utterance (내일 조식 알려줘)
+    utterance (공지사항 알려줘)
+    utterance (포탈 공지사항 알려줘)
+  }
+}

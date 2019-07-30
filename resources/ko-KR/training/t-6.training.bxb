@@ -1,5 +1,5 @@
 train (t-672nojjpkgcm9hg3brl74fpxj) {
-  utterance ([g:tomorrowL] 내일 점심 학식 알려줘)
-  plan (Y2BikMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEORKsnPzS8qyi/3YWAEQgYoBpIA)
-  last-modified (1564134774414)
+  utterance ("[g:tomorrowL] 내일 점심 (학식)[v:meal:mealby] (알려줘)[v:Where:Whereby]")
+  plan (Y2BhkMwoKSlITszJ0SstytELSi0uzSkpji/ILy5hEEORKsnPzS8qyi/3YRBCEQ/PSC1KZRBEEctNTcxhYGZgZGACkgxAGgQhAC4KAA==)
+  last-modified (1564485174603)
 }
