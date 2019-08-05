@@ -16,9 +16,9 @@ description {
   dispatch-name (카우캡)
   dispatch-aliases{
     alias (카우)
-    alias (중학대학교 캡슐)
-    alias (중앙대학교 캡슐)
-    alias (중앙대캡슐)
-    alias (중앙대 캡슐)
+    alias (CAU)
+    alias (CAU캡)
+    alias (CAU 캡)
+    alias (카우 캡)
   }
 }
